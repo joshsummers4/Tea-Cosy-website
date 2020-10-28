@@ -1,0 +1,124 @@
+header{
+    height: 69px;
+    width: 100%
+    postion: fixed;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    z-index: 1;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+nav span{
+    display: inline-block;
+    text-decoration: underline;
+    padding: 20px 10px;
+    color: seashell;
+}
+
+#logo{
+    position: absolute;
+    left: 10px;
+    height: 50px;
+    margin: 9.5px 10px;
+}
+
+body{
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+div, section{
+    text-align: center;
+}
+
+.mission{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    display: inline-block; 
+}
+
+.mission_box{
+    background-color: black;
+    position: relative;
+    top: 300px;
+    opacity: 0.9;
+}
+
+.teas{ 
+    padding-top: 70px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#teatitle{
+    display: block;
+    width: 1000px;
+    text-align: center;
+}
+
+.tea{
+    
+    flex-wrap: wrap;
+    margin: 10px 25px;
+}    
+.pic{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+#teaname{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.locationimg{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    align-items: center;
+}
+.locations{
+    display: inline-flex;
+    align-items: center;
+}
+
+.locationtitle{
+    display: block;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.location{
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+    opacity: 0.9;
+    
+}    
+    
+.contact{
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
