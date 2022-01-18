@@ -1,7 +1,7 @@
 header{
     height: 69px;
-    width: 100%
-    postion: fixed;
+    width: 100%;
+    position: fixed;
     border-bottom: 1px solid seashell;
     align-items: center;
     z-index: 1;
